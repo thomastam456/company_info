@@ -1,0 +1,54 @@
+/* Variables - Colors */
+$border-divider: rgba(0, 0, 0, .1);
+
+// Marketing Area
+.marketing {
+   .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+
+      p {
+         margin: 0 .75rem 1rem;
+      }
+
+      h2 {
+         margin-top: 1rem;
+      }
+   }
+
+   h2 {
+      font-weight: 400;
+   }
+}
+
+.staffImgWrapper {
+   display: inline-block;
+   overflow: hidden;
+}
+
+// Featurette Area
+.row.featurette {
+   border-top: solid $border-divider 1px;
+   padding: 4rem 0;
+
+   img {
+      width: 100%;
+   }
+
+   .featurette-heading {
+      font-weight: 300;
+      letter-spacing: -.05rem;
+
+      @media (min-width: 40em) {
+         font-size: 50px;
+      }
+
+      @media (min-width: 62em) {
+         margin-top: 7rem;
+      }
+   }
+
+   @media (max-width: 425px) {
+      padding: 2rem 0;
+   }
+}

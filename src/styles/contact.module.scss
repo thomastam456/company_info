@@ -1,0 +1,61 @@
+@use "./style.scss" as style;
+
+/* Variables - Colors */
+$textShadow-black: #595959;
+
+// Banner Area
+.bannerArea {
+   height: 300px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #FFF;
+   text-shadow: 2px 2px 3px $textShadow-black;
+   background: center no-repeat;
+   background-size: cover;
+
+   h2 {
+      z-index: 1;
+   }
+}
+
+// Contact Form
+.formArea_inner {
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.formContent {
+   padding: 1.8rem;
+   box-shadow: 1px 1px 5px style.$boxShadow-color;
+   border-radius: 4px;
+
+   &.hide {
+      display: none;
+   }
+}
+
+textarea {
+   min-height: 130px;
+}
+
+.btnArea button {
+   padding: .5rem 2rem;
+   margin: 1rem 1rem 0 0;
+
+   @media (max-width: 425px) {
+      margin: 1rem 0 0;
+      width: 100%;
+   }
+}
+
+table {
+   width: 100%;
+
+   td {
+      padding: .5rem .25rem;
+      vertical-align: top;
+   }
+}
