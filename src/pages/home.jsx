@@ -40,7 +40,7 @@ export default function Home() {
             <div className="carousel-inner">
                <div className="carousel-item active" style={{ backgroundImage: `url('${bannerHome2}')` }}>
                   <div className="carousel-caption">
-                     <h1>公司資訊網</h1><br /><br />
+                     <h1>公司資訊網4565</h1><br /><br />
                      <h4>一站式公司資訊網站，</h4>
                      <h4>提供市場上最新的資訊。</h4>
                   </div>
