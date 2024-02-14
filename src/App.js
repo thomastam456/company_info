@@ -9,7 +9,7 @@ export default function App() {
          <HashRouter>
             <Routes>
                {/* Set Routes of pages */}
-               <Route index element={<Home />} />
+               <Route path="/" element={<Home />} />
                <Route path="/contact" element={<Contact />} />
             </Routes>
          </HashRouter>
