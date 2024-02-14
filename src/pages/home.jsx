@@ -48,7 +48,7 @@ export default function Home() {
                <div className="carousel-item" style={{ backgroundImage: `url('${bannerHome}')` }}>
                   <div className="carousel-caption">
                      <h1 className="mb-4">聯絡我們</h1><br />
-                     <p><a className="btn btn-primary" href="#/contact">查看更多</a></p>
+                     <p><a className="btn btn-primary" href="/contact">查看更多</a></p>
                   </div>
                </div>
             </div>

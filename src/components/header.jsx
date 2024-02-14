@@ -11,7 +11,7 @@ export default function Header() {
 
             <div className="container">
                {/* Logo */}
-               <a className="navbar-band" href="#/"><img src={site_logo_big} alt="Site Logo" /></a>
+               <a className="navbar-band" href="/"><img src={site_logo_big} alt="Site Logo" /></a>
 
                {/* Toggle Button for mobile navbar */}
                <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span className="navbar-toggler-icon"></span></button>
