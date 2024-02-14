@@ -6,7 +6,7 @@ import Contact from './pages/contact';
 export default function App() {
    return (
       <div>
-         <BrowserRouter>
+         <BrowserRouter basename="/company_info">
             <Routes>
                {/* Set Routes of pages */}
                <Route index element={<Home />} />
